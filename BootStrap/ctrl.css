@@ -1,0 +1,9 @@
+
+.slidecontainer {
+  display: flex;
+  align-items: center;
+}
+
+.slidecontainer label {
+  margin-right: 10px;
+}

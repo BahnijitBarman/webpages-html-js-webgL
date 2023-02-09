@@ -1,0 +1,154 @@
+body {
+    max-height: 100%;
+    max-width: 100%;
+    background: url(2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+h1 {
+    position: fixed;
+    top: 40px;
+    left: 180px;
+    width: 733px;
+    height: 160px;
+
+font-family: 'Iceberg';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 156px;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px; */
+}
+  
+p.name {
+    position: fixed;
+    top: 7px;
+    left: 14px;
+    width: 23px;
+    height: 7px;
+    margin: 20px;
+    padding: 200px;
+
+    /* width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; */
+    
+
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 78px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+#name{
+    position: absolute;
+    width: 600px;
+    height: 60px;
+
+    background: rgba(255, 254, 254, 0.8);
+    border-radius: 23px; 
+
+    /* padding: 20px;
+    background: rgba(255, 254, 254, 0.8);
+    border-radius: 23px; */
+}
+
+p.pwd{
+    /* Password */
+
+
+    position: fixed;
+    top: 80px;
+    left: -70px;
+    width: 23px;
+    height: 7px;
+    margin: 100px;
+    padding: 200px;
+
+    /* width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; */
+
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 78px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#pwd{
+    position: absolute;
+    width: 600px;
+    height: 60px;
+
+    background: rgba(255, 254, 254, 0.8);
+    border-radius: 23px; 
+
+    /* padding: 20px;
+    background: rgba(255, 254, 254, 0.8);
+    border-radius: 23px; */
+}
+ 
+input[type="button"] {
+    position: fixed;
+    top: 580px;
+    left: 700px;
+    width: 150px;
+    padding: 10px;
+    background-color: #F3EFF9; /* background color */
+    color: #04DD9C; /* text color */
+    border: none; /* remove border */
+    border-radius: 4px; /* rounded corners */
+    cursor: pointer; /* changes cursor to hand when hovering over button */
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-size: 25px; /* font size */
+    font-weight: bold; /* bold text */
+    transition: all 0.2s ease-in-out; /* adds a transition effect when button is hovered over */
+  }
+  input[type="button"]:hover {
+    background-color: rgb(56, 55, 55); /* changes background color on hover */
+    color: rgb(238, 238, 238); /* changes text color on hover */
+    transform: scale(1.1); /* increases the size of the button on hover */
+  }
+
+.rectangle{
+    position: fixed;
+    top: 60px;
+    left: 140px;
+    width: 850px;
+    height: 600px;
+
+    background: linear-gradient(115.92deg, #04DD9C 8.07%, rgba(14, 186, 134, 0.544792) 30.64%, rgba(106, 160, 242, 0.48) 44.88%, rgba(86, 84, 84, 0.17) 89.52%);
+    box-shadow: 16px 16px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+
+    border-radius: 40px;
+
+    z-index: -1;
+}
+
+@font-face {
+    font-family: 'Iceberg'; /*a name to be used later*/
+    src: url('G:/Iceberg/Iceberg-Regular.ttf'); /*URL to font*/
+}
